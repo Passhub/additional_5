@@ -73,7 +73,7 @@ it('should check if brackets sequence is correct 15', () => {
 it('should check if brackets sequence is not correct 16', () => {
   assert.equal(check('[]][[]', config3), false);
 });
-
+     
 it('should check if brackets sequence is not correct 17', () => {
   assert.equal(check('[]][[]', config2), false);
 });
